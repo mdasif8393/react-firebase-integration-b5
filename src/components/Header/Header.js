@@ -8,7 +8,7 @@ import './Header.css'
 const Header = () => {
     const auth = getAuth(app);
     const [user] = useAuthState(auth)
-
+    console.log(user);
     return (
         <div className="header">
             <nav>
